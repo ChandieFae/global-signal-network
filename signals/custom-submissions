@@ -1,1 +1,19 @@
-# optional folder for user contributions
+{
+  "name": "Your City Name",
+  "latitude": 0.0000,
+  "longitude": 0.0000,
+  "timezone": "Region/City",
+  "description": "Brief description of why this location matters to you or the network."
+}
+
+# Custom Submissions
+
+This folder is for new signal point proposals.
+
+If you'd like to add a location:
+- Duplicate `example-submission.json`
+- Fill in your location and description
+- Submit via pull request
+
+Submissions will be reviewed and added to `phase-2.csv` or future datasets.
+
