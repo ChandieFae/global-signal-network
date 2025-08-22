@@ -1,1 +1,80 @@
-# Initial 10-20 signals
+[
+  {
+    "name": "North Carolina",
+    "latitude": 35.7596,
+    "longitude": -79.0193,
+    "timezone": "America/New_York",
+    "description": "Southeastern US signal point — grounded, steady, growing"
+  },
+  {
+    "name": "New York City",
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "timezone": "America/New_York",
+    "description": "Civic and cultural hub of North America"
+  },
+  {
+    "name": "London",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "timezone": "Europe/London",
+    "description": "Global financial and communication center"
+  },
+  {
+    "name": "Tokyo",
+    "latitude": 35.6895,
+    "longitude": 139.6917,
+    "timezone": "Asia/Tokyo",
+    "description": "East Asian urban and technological core"
+  },
+  {
+    "name": "Sydney",
+    "latitude": -33.8688,
+    "longitude": 151.2093,
+    "timezone": "Australia/Sydney",
+    "description": "Major hub in Oceania with international visibility"
+  },
+  {
+    "name": "Cape Town",
+    "latitude": -33.9249,
+    "longitude": 18.4241,
+    "timezone": "Africa/Johannesburg",
+    "description": "Southern African coastal and cultural center"
+  },
+  {
+    "name": "Rio de Janeiro",
+    "latitude": -22.9068,
+    "longitude": -43.1729,
+    "timezone": "America/Sao_Paulo",
+    "description": "South American signal node with global reach"
+  },
+  {
+    "name": "Toronto",
+    "latitude": 43.6532,
+    "longitude": -79.3832,
+    "timezone": "America/Toronto",
+    "description": "North American media and innovation center"
+  },
+  {
+    "name": "Moscow",
+    "latitude": 55.7558,
+    "longitude": 37.6173,
+    "timezone": "Europe/Moscow",
+    "description": "Eastern European geopolitical and cultural signal"
+  },
+  {
+    "name": "New Delhi",
+    "latitude": 28.6139,
+    "longitude": 77.2090,
+    "timezone": "Asia/Kolkata",
+    "description": "South Asian political and demographic signal point"
+  },
+  {
+    "name": "Cairo",
+    "latitude": 30.0444,
+    "longitude": 31.2357,
+    "timezone": "Africa/Cairo",
+    "description": "North African historical and contemporary center"
+  }
+]
+
