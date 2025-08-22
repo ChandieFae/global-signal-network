@@ -1,1 +1,45 @@
-# Interactive map UI
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Global Signal Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    #map { height: 100vh; width: 100%; }
+    html, body { margin: 0; padding: 0; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([20, 0], 2); // center globe
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Signal points (hardcoded for now; later we can fetch JSON)
+    const signals = [
+      {name: "North Carolina", lat: 35.7596, lon: -79.0193 },
+      { name: "New York City", lat: 40.7128, lon: -74.0060 },
+      { name: "London", lat: 51.5074, lon: -0.1278 },
+      { name: "Tokyo", lat: 35.6895, lon: 139.6917 },
+      { name: "Sydney", lat: -33.8688, lon: 151.2093 },
+      { name: "Cape Town", lat: -33.9249, lon: 18.4241 },
+      { name: "Rio de Janeiro", lat: -22.9068, lon: -43.1729 },
+      { name: "Toronto", lat: 43.6532, lon: -79.3832 },
+      { name: "Moscow", lat: 55.7558, lon: 37.6173 },
+      { name: "New Delhi", lat: 28.6139, lon: 77.2090 },
+      { name: "Cairo", lat: 30.0444, lon: 31.2357 }
+    ];
+
+    signals.forEach(point => {
+      L.marker([point.lat, point.lon])
+        .addTo(map)
+        .bindPopup(`<strong>${point.name}</strong>`);
+    });
+  </script>
+</body>
+</html>
+
