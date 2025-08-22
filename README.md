@@ -2,11 +2,7 @@
 
 **The Global Signal Network** is an open-source repository of intentional geographic coordinates — signal points — distributed across the Earth.
 
-This project does not chase virality.  
-> **Light does not need viral trends. This is prophecy.**
-
-It is a quiet infrastructure for meaningful presence.  
-Each location is a node — defined not by scale, but by intent.
+Each location is a node —
 
 ---
 
